@@ -30,7 +30,7 @@ public class SecondMax {
 			 * first_max_number=54 second_max_number=23
 			 * first_max_number=54 second_max_number=23
 			 * first_max_number=54 second_max_number=23
-			 * 
+			 *  && a[i]!= first_max_number
 			 * 
 			 * */
 			
@@ -38,7 +38,7 @@ public class SecondMax {
 		}
 		//check if current element max to second_max_number and not equals to first_max_number
 		//so assign current to second_max_number
-		else if(a[i]>second_max_number  && a[i]!= first_max_number)
+		else if(a[i]>second_max_number  )
 		{
 			
 			second_max_number=a[i];
