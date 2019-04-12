@@ -18,7 +18,8 @@ public class Checking {
 	}
 	
 	public static void main(String[] args) {
-		
+		System.out.println("Sample.j "+ Sample.j);
+		Sample.j=77;
 		/*Sample s = new Sample();
 		System.out.println(s.i);
 		System.out.println(Sample.j);

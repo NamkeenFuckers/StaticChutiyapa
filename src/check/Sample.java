@@ -2,8 +2,8 @@ package check;
 
 public class Sample {
 
-	int i=50;
-	static int j =60;
+	 int i=50;
+	static int j=990;
 	
 	public String hello()
 	{
@@ -15,7 +15,10 @@ public class Sample {
 		return ("static Hi World");
 	}
 	
-	
+	public static void main(String[] args) {
+		System.out.println(Sample.j+90);
+		j=90;
+	}
 	
 
 }
